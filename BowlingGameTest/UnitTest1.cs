@@ -343,9 +343,8 @@ namespace BowlingGameTest
         {
             BowlingGame.BowlingGame b = new BowlingGame.BowlingGame();
             
-            for (int i=0; i<9; i++)
+            for (int i=0; i<12; i++)
             {
-                b.roll(0);
                 b.roll(0);
             }
 
@@ -358,12 +357,10 @@ namespace BowlingGameTest
         {
             BowlingGame.BowlingGame b = new BowlingGame.BowlingGame();
 
-            for (int i=0; i<9; i++)
+            for (int i=0; i<12; i++)
             {
                 b.roll(10);
-                b.roll(10);
-            }
-            b.roll(10);
+            }            
 
             Assert.AreEqual(b.score(), 300);
         }
