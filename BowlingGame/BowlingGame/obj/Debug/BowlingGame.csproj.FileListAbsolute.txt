@@ -1,0 +1,6 @@
+c:\users\butcher\documents\visual studio 2013\Projects\BowlingGame\BowlingGame\bin\Debug\BowlingGame.exe.config
+C:\Users\ButcheR\Documents\Visual Studio 2013\Projects\BowlingGame\BowlingGame\bin\Debug\BowlingGame.exe
+C:\Users\ButcheR\Documents\Visual Studio 2013\Projects\BowlingGame\BowlingGame\bin\Debug\BowlingGame.pdb
+C:\Users\ButcheR\Documents\Visual Studio 2013\Projects\BowlingGame\BowlingGame\obj\Debug\BowlingGame.csprojResolveAssemblyReference.cache
+C:\Users\ButcheR\Documents\Visual Studio 2013\Projects\BowlingGame\BowlingGame\obj\Debug\BowlingGame.exe
+C:\Users\ButcheR\Documents\Visual Studio 2013\Projects\BowlingGame\BowlingGame\obj\Debug\BowlingGame.pdb

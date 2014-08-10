@@ -1,0 +1,7 @@
+C:\Users\ButcheR\documents\visual studio 2013\Projects\BowlingGame\BowlingGameTest\obj\Debug\BowlingGameTest.csprojResolveAssemblyReference.cache
+C:\Users\ButcheR\documents\visual studio 2013\Projects\BowlingGame\BowlingGameTest\bin\Debug\BowlingGameTest.dll
+C:\Users\ButcheR\documents\visual studio 2013\Projects\BowlingGame\BowlingGameTest\bin\Debug\BowlingGameTest.pdb
+C:\Users\ButcheR\documents\visual studio 2013\Projects\BowlingGame\BowlingGameTest\bin\Debug\BowlingGame.exe
+C:\Users\ButcheR\documents\visual studio 2013\Projects\BowlingGame\BowlingGameTest\bin\Debug\BowlingGame.pdb
+C:\Users\ButcheR\documents\visual studio 2013\Projects\BowlingGame\BowlingGameTest\obj\Debug\BowlingGameTest.dll
+C:\Users\ButcheR\documents\visual studio 2013\Projects\BowlingGame\BowlingGameTest\obj\Debug\BowlingGameTest.pdb
