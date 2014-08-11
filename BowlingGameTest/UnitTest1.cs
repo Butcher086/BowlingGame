@@ -404,5 +404,54 @@ namespace BowlingGameTest
 
             Assert.AreEqual(b.score(),133);
         }
+
+        //Otros
+
+        [TestMethod]
+
+        public void NoSalirDeRango()
+        {
+            BowlingGame.BowlingGame b = new BowlingGame.BowlingGame();
+
+            b.roll(11);
+            Assert.AreEqual(b.score(), 0);
+            Assert.AreEqual(b.Frame, 0);
+
+            b.roll(-5);
+            Assert.AreEqual(b.score(), 0);
+            Assert.AreEqual(b.Frame, 0);
+
+            b.roll(3);
+            b.roll(4);
+            Assert.AreEqual(b.score(), 7);
+            Assert.AreEqual(b.Frame, 1);
+
+            b.roll(34);
+            Assert.AreEqual(b.score(), 7);
+            Assert.AreEqual(b.Frame, 1);
+        }
+
+        [TestMethod]
+
+        public void ComprobarEndGame()
+        {
+            BowlingGame.BowlingGame b = new BowlingGame.BowlingGame();
+
+            Assert.IsFalse(b.isThirdRoll);
+            Assert.IsFalse(b.EndGame);
+
+            for (int i = 0; i < 12; i++)
+            {
+                b.roll(10);
+            }
+
+            Assert.IsTrue(b.isThirdRoll);
+            Assert.IsTrue(b.EndGame);
+
+            //Despues de terminar la partida, no se suma ningun punto mas
+            b.roll(5);
+
+            Assert.AreEqual(b.score(), 300);
+        }
     }
 }

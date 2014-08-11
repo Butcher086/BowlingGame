@@ -44,9 +44,9 @@ namespace BowlingGame
         }
         public void roll(int pins)
         {
-            if (!EndGame)
+            if ((!EndGame) && (pins <= 10) && (pins >= 0)) //Si no se ha completado todos los frames, y si no se sale de rango
             {
-                AddBonus(pins);
+                AddBonus(pins);//Añadir bonus
                 if (frames[Frame].rollI == -1) //Primera tirada
                 {
                     if (pins == 10) //Strike
